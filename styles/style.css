@@ -40,16 +40,6 @@
 
 /* Header Area CSS End */
 
-/* Footer Area CSS Start */
-.footer-area {
-    background-color: #808080;
-    margin-top: 45px;
-    padding: 20px;
-    text-align: center;
-    color: #ffffff;
-}
-
-/* Footer Area CSS End */
 
 /* Products Area CSS Start */
 .product-area .single-product {
@@ -64,3 +54,45 @@
     padding: 5px;
     border-radius: 5px;
 }
+
+/* Products Area CSS End */
+
+/* Cart Area CSS Start*/
+.cart-product {
+    margin-bottom: 30px;
+    border: 1px solid #cec8c8;
+    padding: 10px;
+    position: relative;
+  }
+  .cart-product img {
+    width: 20%;
+  }
+  
+  .cart-product h3 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .cart-product h5 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .cart-product button {
+    border: none;
+    background-color: #ededed;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+/* Cart Area CSS End*/
+
+/* Footer Area CSS Start */
+.footer-area {
+    background-color: #808080;
+    margin-top: 45px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+/* Footer Area CSS End */
